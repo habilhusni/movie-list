@@ -28,27 +28,34 @@ const columns = (prps) => [
     title: "Poster",
     dataIndex: "poster",
     key: "poster",
-    render: (source) => (
-      <img src={source} alt="poster" className="img-poster" />
-    ),
+    render: (source) => renderPoster(prps, source),
   },
   {
     title: "",
     dataIndex: "action",
     key: "action",
-    render: (text, record) => {
-      return (
-        <Link
-          to={{
-            pathname: "/detail",
-          }}
-        >
-          <Button onClick={() => prps.getDetails(record.imdbID)}>View</Button>
-        </Link>
-      );
-    },
+    render: (text, record) => renderView(prps, record),
   },
 ];
+
+const renderPoster = (prps, src) => (
+  <img
+    onClick={() => prps.willModalShow(true, src)}
+    src={src}
+    alt="poster"
+    className="img-poster"
+  />
+);
+
+const renderView = (prps, rec) => (
+  <Link
+    to={{
+      pathname: "/detail",
+    }}
+  >
+    <Button onClick={() => prps.getDetails(rec.imdbID)}>View</Button>
+  </Link>
+);
 
 const isMoviesAvailable = (mvs) => {
   if (!mvs) {
