@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Snapshot and Functional Testing TableList Snapshot 1`] = `
+<Table
+  columns={
+    Array [
+      Object {
+        "dataIndex": "title",
+        "key": "title",
+        "title": "Title",
+      },
+      Object {
+        "dataIndex": "year",
+        "key": "year",
+        "title": "Year",
+      },
+      Object {
+        "dataIndex": "imdbID",
+        "key": "imdbID",
+        "title": "imdbID",
+      },
+      Object {
+        "dataIndex": "type",
+        "key": "action",
+        "title": "Type",
+      },
+      Object {
+        "dataIndex": "poster",
+        "key": "poster",
+        "render": [Function],
+        "title": "Poster",
+      },
+      Object {
+        "dataIndex": "action",
+        "key": "action",
+        "render": [Function],
+        "title": "",
+      },
+    ]
+  }
+  dataSource={Array []}
+  loading={false}
+  pagination={false}
+  rowKey="key"
+/>
+`;

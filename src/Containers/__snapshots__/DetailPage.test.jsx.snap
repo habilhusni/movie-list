@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Snapshot and Functional Testing DetailPage Snapshot 1`] = `
+<ContextProvider
+  value={null}
+>
+  <DetailPage
+    details={
+      Object {
+        "error": Object {},
+        "isLoading": false,
+        "payload": Object {},
+      }
+    }
+    store={
+      Object {
+        "clearActions": [Function],
+        "dispatch": [Function],
+        "getActions": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+      }
+    }
+  />
+</ContextProvider>
+`;

@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Snapshot and Functional Testing HomePage Snapshot 1`] = `
+<ContextProvider
+  value={null}
+>
+  <HomePage
+    getDetails={[Function]}
+    getMovies={[Function]}
+    modal={
+      Object {
+        "isShow": false,
+        "source": "",
+      }
+    }
+    movies={
+      Object {
+        "error": Object {},
+        "isLoading": false,
+        "payload": Object {},
+      }
+    }
+    store={
+      Object {
+        "clearActions": [Function],
+        "dispatch": [Function],
+        "getActions": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+      }
+    }
+    willModalShow={[Function]}
+  />
+</ContextProvider>
+`;

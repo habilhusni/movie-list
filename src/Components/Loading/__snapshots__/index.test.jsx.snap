@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Snapshot and Functional Testing Loading Snapshot 1`] = `
+<Spin
+  className="loading"
+  size="large"
+  spinning={true}
+  wrapperClassName=""
+/>
+`;

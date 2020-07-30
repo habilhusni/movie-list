@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Snapshot and Functional Testing SearchBar Snapshot 1`] = `
+<Search
+  enterButton="Search"
+  onSearch={[Function]}
+  placeholder="Search movies by title"
+  size="large"
+/>
+`;
