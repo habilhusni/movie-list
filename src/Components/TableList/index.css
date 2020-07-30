@@ -1,0 +1,11 @@
+.ant-table-wrapper {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  max-width: 500px !important;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.img-poster {
+  width: 100px;
+}
